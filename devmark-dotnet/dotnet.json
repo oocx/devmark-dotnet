@@ -5,32 +5,35 @@
     "git": {
       "executable": "git.exe",
       "getVersionCommand": "--version"
-    },    
+    },
+    "dotnet": {
+      "executable": "dotnet.exe",
+      "getVersionCommand": "--version"
+    }
   },
   "steps": {
-
     "clone": {
       "description": "Clone the sample git repository",
       "command": "git",
-      "arguments": "clone https://github.com/oocx/EntityFrameworkCore"
+      "arguments": "clone https://github.com/oocx/eShopOnWeb"
     },
-    "nuget-restore": {
+    "restore": {
       "description": "Restore nuget packages",
-      "command": "restore.cmd",
-      "arguments": "",
-      "path": "EntityFrameworkCore"
+      "command": "dotnet",
+      "arguments": "restore",
+      "path": "eShopOnWeb"
     },
     "build": {
       "description": "Build the solution",
-      "command": "build.cmd",
-      "arguments": "",
-      "path": "EntityFrameworkCore"
+      "command": "dotnet",
+      "arguments": "build",
+      "path": "eShopOnWeb"
     },
     "test": {
       "description": "Run tests",
-      "command": "test.cmd",
-      "arguments": "",
-      "path": "EntityFrameworkCore"
+      "command": "dotnet",
+      "arguments": "test",
+      "path": "eShopOnWeb"
     }
   }
 }
