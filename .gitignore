@@ -2,4 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/devmark-dotnet/v16/Server/sqlite3
+.vs
+obj
+bin

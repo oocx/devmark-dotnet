@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace devmark_dotnet
 {
-    class ProcessRunner
+    internal class ProcessRunner
     {
         public async Task<long> ExecAndMeasureAsync(string fileName, string arguments, string workingDirectory, Action<string> outputCallback)
         {

@@ -1,0 +1,68 @@
+{
+  "id": "build-angular",
+  "description": "Build an Angular application and execute tests and linter.",
+  "tools": {
+    "git": {
+      "executable": "git.exe",
+      "getVersionCommand": "--version"
+    },
+    "node": {
+      "executable": "node.exe",
+      "getVersionCommand": "--version"
+    },
+    "npm": {
+      "executable": "npm.cmd",
+      "getVersionCommand": "--version"
+    }
+  },
+  "steps": {
+
+    "clone": {
+      "description": "Clone the sample git repository",
+      "command": "git",
+      "arguments": "clone https://github.com/oocx/angular7-example-app.git"
+    },
+    "npm-install": {
+      "description": "Install npm packages",
+      "command": "npm",
+      "arguments": "install",
+      "path": "angular7-example-app"
+    },
+    "build-prod-en": {
+      "description": "Run a production build (build:prod:en)",
+      "command": "npm",
+      "arguments": "run build:prod:en",
+      "path": "angular7-example-app"
+    },
+    "build-server-prod": {
+      "description": "Run a production build (build:server:prod)",
+      "command": "npm",
+      "arguments": "run build:server:prod",
+      "path": "angular7-example-app"
+    },
+    "build-ssr": {
+      "description": "Run a production build (build:ssr)",
+      "command": "npm",
+      "arguments": "run build:ssr",
+      "path": "angular7-example-app"
+    },
+    "lint": {
+      "description": "Run static code analysis",
+      "command": "npm",
+      "arguments": "run lint",
+      "path": "angular7-example-app"
+    },
+    "test": {
+      "description": "Run unit tests",
+      "command": "npm",
+      "arguments": "run test",
+      "path": "angular7-example-app"
+    },
+    "test-e2e": {
+      "description": "Run end-to-end tests",
+      "command": "npm",
+      "arguments": "run e2e",
+      "path": "angular7-example-app"
+    }
+  }
+}

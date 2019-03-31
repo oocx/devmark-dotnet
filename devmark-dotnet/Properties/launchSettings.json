@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "devmark-dotnet": {
+      "commandName": "Project",
+      "commandLineArgs": "dotnet.json"
+    }
+  }
+}

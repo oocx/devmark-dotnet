@@ -1,0 +1,36 @@
+{
+  "id": "build-dotnet",
+  "description": "Build a dotnet application and execute tests.",
+  "tools": {
+    "git": {
+      "executable": "git.exe",
+      "getVersionCommand": "--version"
+    },    
+  },
+  "steps": {
+
+    "clone": {
+      "description": "Clone the sample git repository",
+      "command": "git",
+      "arguments": "clone https://github.com/oocx/EntityFrameworkCore"
+    },
+    "nuget-restore": {
+      "description": "Restore nuget packages",
+      "command": "restore.cmd",
+      "arguments": "",
+      "path": "EntityFrameworkCore"
+    },
+    "build": {
+      "description": "Build the solution",
+      "command": "build.cmd",
+      "arguments": "",
+      "path": "EntityFrameworkCore"
+    },
+    "test": {
+      "description": "Run tests",
+      "command": "test.cmd",
+      "arguments": "",
+      "path": "EntityFrameworkCore"
+    }
+  }
+}
