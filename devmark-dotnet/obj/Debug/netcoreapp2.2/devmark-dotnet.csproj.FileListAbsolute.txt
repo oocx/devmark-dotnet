@@ -1,0 +1,11 @@
+c:\github\oocx\devmark-dotnet\devmark-dotnet\obj\Debug\netcoreapp2.2\devmark-dotnet.csprojAssemblyReference.cache
+c:\github\oocx\devmark-dotnet\devmark-dotnet\obj\Debug\netcoreapp2.2\devmark-dotnet.csproj.CoreCompileInputs.cache
+c:\github\oocx\devmark-dotnet\devmark-dotnet\obj\Debug\netcoreapp2.2\devmark-dotnet.AssemblyInfoInputs.cache
+c:\github\oocx\devmark-dotnet\devmark-dotnet\obj\Debug\netcoreapp2.2\devmark-dotnet.AssemblyInfo.cs
+c:\github\oocx\devmark-dotnet\devmark-dotnet\bin\Debug\netcoreapp2.2\devmark-dotnet.deps.json
+c:\github\oocx\devmark-dotnet\devmark-dotnet\bin\Debug\netcoreapp2.2\devmark-dotnet.runtimeconfig.json
+c:\github\oocx\devmark-dotnet\devmark-dotnet\bin\Debug\netcoreapp2.2\devmark-dotnet.runtimeconfig.dev.json
+c:\github\oocx\devmark-dotnet\devmark-dotnet\bin\Debug\netcoreapp2.2\devmark-dotnet.dll
+c:\github\oocx\devmark-dotnet\devmark-dotnet\bin\Debug\netcoreapp2.2\devmark-dotnet.pdb
+c:\github\oocx\devmark-dotnet\devmark-dotnet\obj\Debug\netcoreapp2.2\devmark-dotnet.dll
+c:\github\oocx\devmark-dotnet\devmark-dotnet\obj\Debug\netcoreapp2.2\devmark-dotnet.pdb
