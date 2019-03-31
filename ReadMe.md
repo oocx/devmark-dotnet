@@ -8,6 +8,10 @@ This tool measures the overall time taken to build an application.
 
 # usage
 
+Build devmark-dotnet:
+dotnet publish --self-contained --runtime win-x64 --configuration release
+The .exe will be published to devmark-dotnet\bin\Release\netcoreapp2.2\win-x64\publish\devmark-dotnet.exe
+
 Run the angular benchmark:
 devmark-dotnet angular.json
 
